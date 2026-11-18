@@ -1,0 +1,44 @@
+[
+  {
+    "requests": 5000,
+    "concurrency": 8,
+    "wall_s": 5.98,
+    "rps": 836.4,
+    "p50_ms": 7.36,
+    "p99_ms": 31.32,
+    "decisions": {
+      "APPROVED": 3036,
+      "QUIET_HOURS": 1864,
+      "DUP_CAMPAIGN": 70,
+      "CAP_EXCEEDED": 30
+    }
+  },
+  {
+    "requests": 5000,
+    "concurrency": 32,
+    "wall_s": 8.21,
+    "rps": 608.7,
+    "p50_ms": 36.47,
+    "p99_ms": 223.86,
+    "decisions": {
+      "APPROVED": 3033,
+      "QUIET_HOURS": 1884,
+      "DUP_CAMPAIGN": 59,
+      "CAP_EXCEEDED": 24
+    }
+  },
+  {
+    "requests": 5000,
+    "concurrency": 64,
+    "wall_s": 5.74,
+    "rps": 870.9,
+    "p50_ms": 65.9,
+    "p99_ms": 122.07,
+    "decisions": {
+      "QUIET_HOURS": 1897,
+      "APPROVED": 3026,
+      "DUP_CAMPAIGN": 52,
+      "CAP_EXCEEDED": 25
+    }
+  }
+]

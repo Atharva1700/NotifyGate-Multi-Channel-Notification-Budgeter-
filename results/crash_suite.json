@@ -1,0 +1,32 @@
+{
+  "read": {
+    "trials": 10,
+    "all_sigkilled": true,
+    "max_lost": 0,
+    "max_unexpected": 0,
+    "total_effective_duplicates": 0,
+    "total_raw_log_duplicates": 0,
+    "trials_with_raw_duplicates": 0,
+    "max_outbox_pending": 0
+  },
+  "publish": {
+    "trials": 10,
+    "all_sigkilled": true,
+    "max_lost": 0,
+    "max_unexpected": 0,
+    "total_effective_duplicates": 0,
+    "total_raw_log_duplicates": 10,
+    "trials_with_raw_duplicates": 10,
+    "max_outbox_pending": 0
+  },
+  "ack": {
+    "trials": 10,
+    "all_sigkilled": true,
+    "max_lost": 0,
+    "max_unexpected": 0,
+    "total_effective_duplicates": 0,
+    "total_raw_log_duplicates": 0,
+    "trials_with_raw_duplicates": 0,
+    "max_outbox_pending": 0
+  }
+}
